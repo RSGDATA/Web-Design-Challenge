@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Landing Page</title>
+  <title>LAT vs. Cloudiness</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -48,9 +48,24 @@
           </ul>
         </div>
       </nav>   
-<img src="Graphs/Latitude vs. Temperature Plot.png" width = "200">
-  
-  
+     
+
+    <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-sm-7">
+        <h1 class="display-3 text-primary">Cloudiness</h1>
+        <img  src="Graphs/Latitude vs. Cloudiness Plot.png" width = "300">
+        <p>The code is analysing the Latitude and Cloudiness column from city_df. This data is visualised by the use of plt.scatter
+           Above you will see a scatter plot that is measuring the correlation between latitude and cloudiness. The scatter plot sees 
+           low humidity and very high humidity fairy evenly. Based on this scatter plot, there are either really humid days or really 
+           unhumids dasy at a similar altitude. This goes against what was said on Cloudy Earth earthobservatory.nasa.gov wich sates 
+           "Clouds also tend to form in abundance in the middle latitudes 60 degrees north and south of the equator" High humidity has 
+           an even spread despite latitude change.
+        </p>
+    </div>
+    </div>
+    </div>
+    
 </body>
 
 </html>
