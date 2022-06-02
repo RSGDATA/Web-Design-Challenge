@@ -50,7 +50,7 @@
       </nav>   
 
 
-<div class="container">
+<!-- <div class="container">
     <div class="row justify-content-center">
     <div class="col-sm-7">
         <h1 class="display-1 text-primary">Humidity</h1>
@@ -62,7 +62,69 @@
         </p>
     </div>
     </div>
-    </div>
+    </div> -->
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-7"> 
+            <h3 class ="hum" >Humidity</h3>
+            <hr>
+
+            
+                          
+              <img class="temp" src="Graphs/Latitude vs. Humidity Plot.png" width = "500">
+
+
+            <p>The code is analysing the Latitude and Humidity column from city_df. This data is visualised by the use of plt.scatter
+              The overall impact latitude has on humidity is minimal. The scatter is spread evenly througout Humidity as it deacreases 
+              slightly while latitude increases. The majority of humidity remains in the 80 to 100 percent range. Based on this scatter plot.
+              The increase in latitude has on humidity is very minimal.
+            </p>
+              
+
+          </div>
+           <div class="col-md-5"> 
+            <h3 class="vis">Visualizations</h3>
+            <hr>
+                  
+            <div class="row">
+              <div class="col-md-6">
+                
+
+                
+
+               <a href="visualize_temp.html"><img class="right-image" src="Graphs/Latitude vs. Temperature Plot.png" width = "200"></a>
+              
+              </div>
+              <div class="col-md-6">
+                <a href="visualize_humidity.html"><img class="right-image" src="Graphs/Latitude vs. Humidity Plot.png" width = "200"></a>
+
+              </div>
+                  
+                  
+            </div>  
+
+            <div class="row">
+              <div class="col-md-6">
+
+                <a href="visualize_humidity.html"><img class="right-image" src="Graphs/Latitude vs. Cloudiness Plot.png" width = "200"></a>
+
+              </div>
+              <div class="col-md-6">
+                <a href="visualize_wind.html"><img class="right-image" src="Graphs/Latitude vs. Wind Speed Plot.png" width = "200"></a>
+
+                </div>
+              </div>
+                  
+                  <!-- <div class="col"><img src="Graphs/Latitude vs. Cloudiness Plot.png" width = "200"></div>
+                  <div class="col"><img src="Graphs/Latitude vs. Wind Speed Plot.png" width = "200"></div> -->
+
+                  
+                  
+              
+          </div>
+      </div>
+  </div>     
   
 </body>
 

@@ -15,7 +15,24 @@
 }
 
 
+.Max{
+  margin-left: 170px;
+  color: rgb(43, 226, 122)
+}
 
+.temp{
+  float: none;
+}
+
+.vis{
+  margin-left: 100px;
+  color: rgb(43, 226, 122)
+}
+
+.hum{
+  margin-left: 200px;
+  color: rgb(43, 226, 122)
+}
 
 
 
