@@ -4,7 +4,10 @@
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
-![Images/landingResize.png](e.g. C:/User/OneDrive/Desktop/Folder/Image.png)
+
+
+
+![](Images/comparison-lg.png)
 
 ### Before You Begin
 
